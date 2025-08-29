@@ -10,10 +10,29 @@
     "test": "vitest --config vitest.config.ts --run",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+     "turborepo",
+    "typescript",
+    "monorepo",
+    "cli",
+    "scaffold",
+    "tsconfig"
+  ],
+  "author": "Dipsha <dipshadas4@gmail.com>",
   "license": "ISC",
-  "description": "",
+  "description": "Automate and scaffold TypeScript configurations in Turborepo monorepos",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/Dipxssi/monorepo-tsconfigs-generator"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "preferGlobal": true,
   "devDependencies": {
     "@types/commander": "^2.12.0",
     "@types/node": "^24.3.0",
