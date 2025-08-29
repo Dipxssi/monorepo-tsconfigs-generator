@@ -1,6 +1,0 @@
-{
-  "extends": "./react.json",
-  "compilerOptions": {
-    "moduleResolution": "bundler"
-  }
-}
